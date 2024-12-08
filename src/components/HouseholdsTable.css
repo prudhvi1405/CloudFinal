@@ -1,0 +1,67 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.table-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+/* Styling for table headers */
+.table-header {
+  height: 50px; /* Equal height for square-like appearance */
+  width: 50px; /* Equal width for square-like appearance */
+  text-align: center;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  vertical-align: middle; /* Centers text vertically */
+}
+
+/* Styling for table cells */
+.table-cell {
+  height: 50px; /* Matches header height */
+  width: 50px; /* Matches header width */
+  text-align: center;
+  border: 1px solid #ddd;
+  vertical-align: middle; /* Centers text vertically */
+}
+
+.table-row:hover {
+  background-color: #f9f9f9;
+}
+
+/* Set the height of the table body to display 10 rows at once */
+.scrollable-tbody {
+  display: block;
+  max-height: 300px; /* Height for 10 rows of 60px */
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.scrollable-tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* Ensures consistent column width */
+}
+
+.scrollable-tbody td,
+.scrollable-tbody th {
+  width: 60px; /* Ensures square appearance with matching header width */
+}
+
+/* Align header and body to remain in sync */
+thead tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}

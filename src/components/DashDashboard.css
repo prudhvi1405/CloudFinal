@@ -1,0 +1,116 @@
+.DashDashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .main-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .columns-list {
+    margin-bottom: 20px;
+    font-size: 16px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .columns-list li {
+    margin: 5px 0;
+  }
+  
+  .instructions {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .input-form {
+    margin-bottom: 30px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-box {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .response-message {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-header, .table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table-header {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .table-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .scrollable-tbody {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .error-message {
+    font-size: 16px;
+    margin-top: 20px;
+  }  
+
+  .newdashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .newdashboard-main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .newdashboard-main h2 {
+    margin-bottom: 20px;
+  }  
