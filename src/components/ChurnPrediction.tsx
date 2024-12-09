@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './ImageGallery.css';
+import churn from '../../images/churn.png'
+import churn1 from '../../images/churn1.png'
+import churn2 from '../../images/churn2.png'
+import churn3 from '../../images/churn3.png'
 
 const ChurnPrediction: React.FC = () => {
   // State to manage whether images are ready to be displayed
@@ -23,16 +27,16 @@ const ChurnPrediction: React.FC = () => {
       ) : (
         <>
           <div className="image-card">
-            <img src="/images/churn.png" alt="Image 1" />
+            <img src={churn} alt="Image 1" />
           </div>
           <div className="image-card">
-            <img src="/images/churn1.png" alt="Image 2" />
+            <img src={churn1} alt="Image 2" />
           </div>
           <div className="image-card">
-            <img src="/images/churn2.png" alt="Image 3" />
+            <img src={churn2} alt="Image 3" />
           </div>
           <div className="image-card">
-            <img src="/images/churn3.png" alt="Image 4" />
+            <img src={churn3} alt="Image 4" />
           </div>
         </>
       )}
