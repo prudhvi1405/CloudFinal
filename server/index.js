@@ -14,10 +14,10 @@ let dbPool;
 // Initialize the database and connection pool
 async function initializeDb() {
   dbPool = mysql.createPool({
-    host: '130.211.226.175',
-    user: 'arjunamysql',
-    password: 'Karjuna@1099',
-    database: 'mysqldb',
+    host: '34.162.85.171',
+    user: 'cloudfinal',
+    password: 'Sairaviteja@145',
+    database: 'mysql',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
