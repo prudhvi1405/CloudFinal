@@ -65,7 +65,7 @@ function HouseholdsTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/gettables');
+        const response = await fetch('https://cloudserver2.onrender.com/api/gettables');
         const result = await response.json();
 
         if (response.ok) {

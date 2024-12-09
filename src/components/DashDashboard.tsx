@@ -58,7 +58,7 @@ const DashDashboard: React.FC = () => {
 
     try {
       // Send a request to the backend with the user-provided query
-      const response = await fetch('http://localhost:3000/api/userquery', {
+      const response = await fetch('https://cloudserver2.onrender.com/api/userquery', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
