@@ -93,7 +93,7 @@ function Login() {
          <div className="mt-4 text-center">
             <button
               type="button"
-              onClick={() => navigate('/signup')}  {/* Replace with your register page URL */}
+              onClick={() => navigate('/signup')}
               className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Register
