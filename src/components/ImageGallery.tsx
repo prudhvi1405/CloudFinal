@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './ImageGallery.css';
+import output from '../../images/output.png'
+import output1 from '../../images/output1.png'
+import output2 from '../../images/output2.png'
 
 const ImageGallery: React.FC = () => {
   // State to manage whether images are ready to be displayed
@@ -23,13 +26,13 @@ const ImageGallery: React.FC = () => {
       ) : (
         <>
           <div className="image-card">
-            <img src="/images/output.png" alt="Image 1" />
+            <img src={output} alt="Image 1" />
           </div>
           <div className="image-card">
-            <img src="/images/output1.png" alt="Image 2" />
+            <img src={output1} alt="Image 2" />
           </div>
           <div className="image-card">
-            <img src="/images/output2.png" alt="Image 3" />
+            <img src={output2} alt="Image 3" />
           </div>
         </>
       )}
